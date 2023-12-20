@@ -1,0 +1,18 @@
+{
+    "links": [{
+        "name": "Sobre mí",
+        "link": "about"
+    },
+    {
+        "name": "Habilidades",
+        "link": "skills"
+    },
+    {
+        "name": "Portafolio",
+        "link": "portfolio"
+    },
+    {
+        "name": "Contacto",
+        "link": "contact"
+    }]
+}

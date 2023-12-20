@@ -1,0 +1,83 @@
+/* Fonts */
+
+@font-face {
+  font-family: 'Prompt-Regular';
+  src: url(../src/assets/fonts/Prompt-Regular.ttf);
+}
+
+@font-face {
+  font-family: 'Prompt-Bold';
+  src: url(../src/assets/fonts/Prompt-Bold.ttf);
+}
+
+@font-face {
+  font-family: 'Prompt-Light';
+  src: url(../src/assets/fonts/Prompt-Light.ttf);
+}
+
+@font-face {
+  font-family: 'Prompt-Italic';
+  src: url(../src/assets/fonts/Prompt-Italic.ttf);
+}
+
+/* Universal style */
+
+html {
+  scroll-behavior: smooth;
+  transition: 1s ease;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Prompt-Regular";
+}
+
+body {
+  /* background: #000 !important; */
+  background-image: url('../src/assets/images/textura.png');
+  background-repeat: repeat;
+}
+
+.body2 {
+  background-image: url('../src/assets/images/textura2.png') !important;
+  background-repeat: repeat !important;
+}
+
+.site-container {
+  width: 1115px;
+  margin: 0 auto;
+}
+
+@media (max-width: 1250px) {
+  .site-container {
+      width: 90%;
+  }
+}
+
+.universal-h2 {
+  font-size: 48px;
+  text-align: center;
+  color: #222;
+}
+
+@media (max-width: 1250px) {
+  .universal-h2 {
+      font-size: 38px;
+  }
+}
+
+@media (max-width: 668px) {
+  .universal-h2 {
+      font-size: 30px;
+  }
+}
+
+.universal-h2-bckg {
+  background-image: url("../images/double-line.svg");
+  background-repeat: no-repeat;
+  background-position: center bottom;
+}
+
+
+/* Universal style end */
