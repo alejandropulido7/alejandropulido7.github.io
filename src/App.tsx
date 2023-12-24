@@ -4,7 +4,6 @@ import {GlobalState} from './context/global/GlobalState'
 import Banner from "./components/banner/Banner";
 
 function App() {
-
   return (
     <GlobalState>
       <Navigation/>

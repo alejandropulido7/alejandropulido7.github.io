@@ -1,0 +1,160 @@
+
+.about-me-single-slide {
+    overflow: visible;
+}
+
+.universal-h2-bckg,
+.text-about {
+    position: relative;
+}
+
+.fh5co-about-me{
+    z-index: 1;
+}
+
+@media (max-width: 425px) {
+    .fh5co-about-me {
+        width: 100%;
+    }
+}
+
+@media (max-width: 1366px) {
+    .fh5co-about-me {
+        margin-bottom: 0.25rem;
+    }
+}
+
+.about-me__profile {
+    height: 390px;
+}
+
+.portfolio-wrapper .portfolio__img{
+    clip-path: circle(145px at 50% 50%);
+    width: 310px;
+    margin: auto
+}
+
+.about-me-bckg {
+    position: absolute;
+    /* background-image: url("../images/about-me-bckg.jpg"); */
+    background-position: center;
+    background-size: cover;
+    height: calc(100% + 150px);
+    width: 70%;
+    z-index: -1;
+}
+
+.about-me-bckg:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #000;
+    opacity: 0.7;
+}
+
+@media (max-width: 992px) {
+    .about-me-bckg {
+        width: 100%;
+        padding-bottom: 15px;
+    }
+}
+
+.about-me-inner {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+@media (max-width: 992px) {
+    .about-me-inner {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+.about-me-slider {
+    position: relative;
+}
+
+.about-me-slider .slick-arrow {
+    position: absolute;
+    bottom: -18%;
+}
+
+.about-me-slider .slick-prev {
+    left: 40%;
+}
+
+@media (max-width: 520px) {
+    .about-me-slider .slick-prev {
+        left: 34%;
+    }
+}
+
+.about-me-slider .slick-next {
+    right: 40%;
+}
+
+@media (max-width: 520px) {
+    .about-me-slider .slick-next {
+        right: 34%;
+    }
+}
+
+.about-me__text {
+    margin: auto;
+    text-align: center;
+}
+
+.about-me__text .universal-h2 {
+    color: #FFF;
+    padding-bottom: 20px;
+    margin-bottom: 25px;
+}
+
+.about-me__text p {
+    margin-bottom: 35px;
+    line-height: 24px;
+    color: #FFF;
+}
+
+.about-me__text p span {
+    font-size: 48px;
+    color: #5830FF;
+}
+
+@media (max-width: 620px) {
+    .about-me__text p {
+        margin-bottom: 20px;
+        font-size: 14px;
+        line-height: 19px;
+    }
+}
+
+.about-me__text h4 {
+    margin-bottom: 7px;
+    font-size: 25px;
+    color: #5830FF;
+}
+
+.about-me__text .p-white {
+    margin-bottom: 0;
+    color: #fff;
+}
+
+@media (max-width: 1250px) {
+    .about-me__text {
+        width: 48%;
+        margin-right: 40px;
+    }
+}
+
+@media (max-width: 992px) {
+    .about-me__text {
+        width: 100%;
+        margin-right: 0;
+    }
+}

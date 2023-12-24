@@ -4,6 +4,7 @@ import App from './App.tsx'
 import { createBrowserRouter, RouterProvider} from "react-router-dom";
 import './index.css'
 import About from './components/about/About.tsx';
+import Intro from './components/banner/Intro.tsx';
 
 const router = createBrowserRouter([
   {
@@ -12,7 +13,11 @@ const router = createBrowserRouter([
     errorElement: <App />,
     children: [
       {
-        path: "about",
+        path: "/",
+        element: <Intro />,
+      },
+      {
+        path: "skills",
         element: <About />,
       },
     ],

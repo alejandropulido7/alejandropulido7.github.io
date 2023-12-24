@@ -1,17 +1,23 @@
-.site-navigation {
+/* .site-navigation {
     position: absolute;
     top: 4.6%;
     width: 100%;
     z-index: 2;
+    position: fixed;
 }
 
 .site-navigation-inner {
     display: flex;
     align-items: center;
     justify-content: space-between;
-}
+} */
 
 /* Navigation burger */
+
+.active {
+    font-size: 1.875rem/* 30px */;
+    line-height: 2.25rem/* 36px */;
+}
 
 .burger-container {
     cursor: pointer;

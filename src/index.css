@@ -1,3 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 /* Fonts */
 
 @font-face {
@@ -34,7 +38,6 @@ html {
 }
 
 body {
-  /* background: #000 !important; */
   background-image: url('../src/assets/images/textura.png');
   background-repeat: repeat;
 }
@@ -49,11 +52,11 @@ body {
   margin: 0 auto;
 }
 
-@media (max-width: 1250px) {
+/* @media (max-width: 1250px) {
   .site-container {
       width: 90%;
   }
-}
+} */
 
 .universal-h2 {
   font-size: 48px;

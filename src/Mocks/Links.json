@@ -1,8 +1,9 @@
 {
-    "links": [{
-        "name": "Sobre mí",
-        "link": "about"
-    },
+    "links": [
+    {
+        "name": "Intro",
+        "link": "/"
+    }, 
     {
         "name": "Habilidades",
         "link": "skills"
