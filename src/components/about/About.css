@@ -25,13 +25,30 @@
 }
 
 .about-me__profile {
-    height: 390px;
+    height: 310px;
+    object-fit: cover;
+    width:100%;
+    height:100%;
 }
 
-.portfolio-wrapper .portfolio__img{
-    clip-path: circle(145px at 50% 50%);
-    width: 310px;
-    margin: auto
+.portfolio-wrapper{
+    position: relative;
+    object-fit: cover;
+    width:300px;
+    height:300px;
+}
+
+.portfolio-wrapper::after{
+    content: '';
+    position: absolute;
+    top: 0;
+    width:300px;
+    height:300px;
+    background: #0d1b1e79;
+}
+
+.portfolio-wrapper:hover{
+    background: teal;
 }
 
 .about-me-bckg {
@@ -65,7 +82,6 @@
 .about-me-inner {
     display: flex;
     justify-content: space-between;
-    flex-direction: column;
 }
 
 @media (max-width: 992px) {
@@ -104,10 +120,6 @@
     }
 }
 
-.about-me__text {
-    margin: auto;
-    text-align: center;
-}
 
 .about-me__text .universal-h2 {
     color: #FFF;
@@ -122,8 +134,8 @@
 }
 
 .about-me__text p span {
-    font-size: 48px;
-    color: #5830FF;
+    font-weight: bold;
+    color: #82D2D2;
 }
 
 @media (max-width: 620px) {

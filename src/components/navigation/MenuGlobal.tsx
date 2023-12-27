@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import {links} from '../../Mocks/Links.json'
+import {links} from '../../content/Links'
 import './MenuGlobal.css'
 import { ShowNavContext } from "../../context/global/GlobalContext";
 import { useContext } from "react";

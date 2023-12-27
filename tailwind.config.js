@@ -6,6 +6,15 @@ export default {
   ],
   theme: {
     extend: {},
+    colors: {
+      transparent: 'transparent',
+      current: 'currentColor',
+      'text': '#FFFFFF',
+      'primary': '#82D2D2',
+      'secundary': '#0D1B1E',
+      'white': '#FFFFFF',
+      'black': '#000000'
+    }
   },
   plugins: [],
 }

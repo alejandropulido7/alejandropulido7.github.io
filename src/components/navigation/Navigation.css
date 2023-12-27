@@ -1,22 +1,38 @@
-/* .site-navigation {
-    position: absolute;
-    top: 4.6%;
-    width: 100%;
+
+
+.site-navigation {
     z-index: 2;
     position: fixed;
+    transition: all ease-in-out 1s;
 }
 
 .site-navigation-inner {
     display: flex;
     align-items: center;
     justify-content: space-between;
-} */
+}
+
+.line-link{
+    position: absolute;
+    width: 1px;
+    width: 500px;
+    height: 1px;
+    background: #FFF;
+    right: 130px;
+}
+
+.line-link:hover{
+    right: 140px;
+}
+
+.contact-email{
+    writing-mode: vertical-lr;
+}
 
 /* Navigation burger */
 
 .active {
-    font-size: 1.875rem/* 30px */;
-    line-height: 2.25rem/* 36px */;
+    display: none !important;
 }
 
 .burger-container {
@@ -53,6 +69,16 @@
     overflow: hidden;
 }
 
+@media (max-width: 768px) {
+    .btn-home{
+        left: 380px !important;
+        top: 740px !important;
+    }
+
+    .section-contact{
+        left: 380px !important;
+    }
+}
 
 /* Navigation burger end */
 

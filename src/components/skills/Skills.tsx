@@ -1,5 +1,5 @@
 import './Skills.css'
-import {SKILLS} from '../../Mocks/Skills'
+import {SKILLS} from '../../content/Skills'
 
 export default function Skills(){
 
