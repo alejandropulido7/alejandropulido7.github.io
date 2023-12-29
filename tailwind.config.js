@@ -11,6 +11,7 @@ export default {
       current: 'currentColor',
       'text': '#FFFFFF',
       'primary': '#82D2D2',
+      'primary-opacity': '#82d2d27e',
       'secundary': '#0D1B1E',
       'white': '#FFFFFF',
       'black': '#000000'

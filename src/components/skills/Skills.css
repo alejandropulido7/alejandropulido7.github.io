@@ -10,34 +10,23 @@
     color: #FFF;
     width: 80%;
     margin: auto;
+    z-index: 10;
 }
 
-.skill-bar-holder {
-    position: relative;
-    border: 2px #5830FF solid;
-    border-radius: 10px;
-}
 
 .skill-bar-text{
     top: 0;
     position: absolute;
-    color: #FFF;    
     display: flex;
     justify-content: space-between;
     align-self: center;
     padding: 5px;
-    /* z-index: 1; */
     width: 100%;
     font-size: small;
 }
 
 .skill-capacity {
-    height: 24px;
-    background: linear-gradient(90deg, rgba(88, 48, 255, 1) 59%, rgba(122, 156, 255, 1) 100%);
-    background-color: #5830FF;
-    border-radius: 8px;    
-    /* z-index: 1; */
-    
+    height: 24px;    
 }
 
 .skill-capacity:hover {
@@ -45,14 +34,6 @@
     transition: 1s ease-in;
 }
 
-.skills-ul{
-    gap: 3;
-}
-
-.skills-ul>li {
-    list-style: none;
-    margin: 1em 0;
-}
 
 .skills-porcent {
     align-self: center;

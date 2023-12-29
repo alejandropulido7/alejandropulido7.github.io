@@ -21,6 +21,12 @@
     background-color: rgba(0, 0, 0, 0.5)
 }
 
+@media (max-width: 425px) {
+    .main-navigation .main-navigation__ul {
+        padding-top: 40%;
+    }    
+}
+
 .main-navigation .main-navigation__ul li {
     margin-bottom: 20px;
     list-style: none;

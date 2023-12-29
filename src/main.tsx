@@ -5,6 +5,9 @@ import { createBrowserRouter, RouterProvider} from "react-router-dom";
 import './index.css'
 import About from './components/about/About.tsx';
 import Intro from './components/banner/Intro.tsx';
+import Skills from './components/skills/Skills.tsx';
+import Projects from './components/projects/Projects.tsx';
+import ProjectsArchive from './components/projects/ProjectsArchive.tsx';
 
 const router = createBrowserRouter([
   {
@@ -20,6 +23,18 @@ const router = createBrowserRouter([
         path: "about",
         element: <About />,
       },
+      {
+        path: "skills",
+        element: <Skills />,
+      },
+      {
+        path: "projects",
+        element: <Projects />,
+      },
+      {
+        path: "archive",
+        element: <ProjectsArchive />,
+      }            
     ],
   },
 ]);

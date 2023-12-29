@@ -13,7 +13,7 @@ export const SKILLS = [
         },
         {
             languague: "ReactJS",
-            percent: 40
+            percent: 50
         },
         {
             languague: "Angular",
@@ -26,5 +26,12 @@ export const SKILLS = [
         {
             languague: "Wordpress",
             percent: 80
+        },
+        {
+            languague: "Tailwind/Bootstrap",
+            percent: 80
         }
-]
+];
+
+export const OTHER_SKILLS = ['PHP', 'Laravel', 'MongoDB', 'Figma', 'SQL', 'Typescript', 'Git', 'Docker', 'Postman']
+

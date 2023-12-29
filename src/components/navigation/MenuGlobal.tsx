@@ -7,6 +7,7 @@ import { useContext } from "react";
 export default function MenuGlobal({show}: any){
 
     const {toggleShowNav} = useContext(ShowNavContext);
+    const showLinks = links.filter( link => link.show);
 
     if(!show) return null;
 
@@ -14,7 +15,7 @@ export default function MenuGlobal({show}: any){
         <>
             <div className="main-navigation">
                 <ul className="main-navigation__ul">
-                    {links.map((link) => {
+                    {showLinks.map((link) => {
                         return (
                             <li key={link.link}>
                                 <Link className="btn-menu-nav" onClick={()=>toggleShowNav(!show)} to={link.link}>{link.name}</Link>                                       

@@ -1,18 +1,27 @@
 export const links = [
     {
         name: "Sobre mi",
-        link: "about"
+        link: "about",
+        show: true
     }, 
     {
         name: "Habilidades",
-        link: "skills"
+        link: "skills",
+        show: true
     },
     {
         name: "Proyectos",
-        link: "projects"
+        link: "projects",
+        show: true
     },
     {
         name: "Resumen",
-        link: "summary"
+        link: "summary",
+        show: true
+    },
+    {
+        name: "Archivo de proyectos",
+        link: "archive",
+        show: false
     }
 ]
