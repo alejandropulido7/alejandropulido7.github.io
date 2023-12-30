@@ -33,5 +33,5 @@ export const SKILLS = [
         }
 ];
 
-export const OTHER_SKILLS = ['PHP', 'Laravel', 'MongoDB', 'Figma', 'SQL', 'Typescript', 'Git', 'Docker', 'Postman']
+export const OTHER_SKILLS = ['PHP', 'Laravel', 'MongoDB', 'Figma', 'SQL', 'Typescript', 'Git', 'Docker', 'Postman', 'Python']
 

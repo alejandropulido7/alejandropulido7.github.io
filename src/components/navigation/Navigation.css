@@ -76,6 +76,9 @@
     .breadcrumbs{
         display: none;
     }
+    .nav-bottom{
+        display: none !important;
+    }
 }
 
 /* Navigation burger end */
