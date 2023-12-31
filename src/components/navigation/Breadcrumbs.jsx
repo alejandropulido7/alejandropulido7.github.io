@@ -1,5 +1,5 @@
 import React, { useEffect, useRef } from 'react'
-import { NavLink } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import iconHome from '../../assets/images/home-svgrepo-com.svg'
 
 const Breadcrumbs = ({pathName, dimensions}) => {
@@ -24,9 +24,9 @@ const Breadcrumbs = ({pathName, dimensions}) => {
                 <li className="w-80 h-px bg-white self-center"></li>
             </ul>
             <div className="btn-home fixed right-0 my-5" style={{right: '7%', top: dimensions.height-100}}>
-                <NavLink to={'/'}>
+                <Link to={'/portfolio-v2/'}>
                     <img src={iconHome} alt="icon home"/>
-                </NavLink>
+                </Link>
             </div>
         </>
     )
