@@ -5,7 +5,7 @@ const NavigationLinks = ({links, dimensions}) => {
 
 
   return (
-    <ul className="nav-bottom flex fixed flex-col justify-center my-5 text-white gap-7 text-lg font-bold nav-bottom" style={{top: dimensions.height-250}}>
+    <ul className="nav-bottom flex fixed flex-col justify-center my-5 text-white gap-7 text-lg font-bold nav-bottom" style={{top: dimensions.height-200}}>
         {
             links.map((link) => {
                 return (
