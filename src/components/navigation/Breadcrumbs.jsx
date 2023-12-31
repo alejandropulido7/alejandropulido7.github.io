@@ -6,16 +6,16 @@ const Breadcrumbs = ({pathName, dimensions}) => {
 
     const breadcrumbNode = useRef();
 
-    // if (breadcrumbNode.current) { 
-    //     breadcrumbNode.current.style = null
-    // }
+    if (breadcrumbNode.current) { 
+        breadcrumbNode.current.style = null
+    }
 
-    // useEffect(()=> {
-    //     if (breadcrumbNode.current) { 
-    //         breadcrumbNode.current.style.animationName = "leftToRight"; 
-    //         breadcrumbNode.current.style.animationDuration = "1s";
-    //     }
-    // },[pathName]);
+    useEffect(()=> {
+        if (breadcrumbNode.current) { 
+            breadcrumbNode.current.style.animationName = "leftToRight"; 
+            breadcrumbNode.current.style.animationDuration = "1s";
+        }
+    },[pathName]);
 
     return (
         <>
