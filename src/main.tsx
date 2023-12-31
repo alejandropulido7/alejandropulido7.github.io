@@ -13,6 +13,7 @@ const router = createBrowserRouter([
   {
     path: "/portfolio-v2/",
     element: <App />,
+    errorElement: <App />,
     children: [
       {
         path: "/portfolio-v2/",

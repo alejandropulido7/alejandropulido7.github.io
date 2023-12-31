@@ -66,13 +66,13 @@
 
 @media (max-width: 768px) {
     .top-banner__inner .top-banner__h2 {
-        font-size: 35px;
+        font-size: 50px;
+        text-align: right;
     }
-}
 
-.top-banner__inner .top-banner__image {
-    font-size: 0;
-    width: 55%;
+    .top-banner__text-down{
+        text-align: right;
+    }
 }
 
 .top-banner__image {
@@ -150,9 +150,10 @@
 }
 
 @media (max-width: 520px) {
-    .top-banner__inner .top-banner__image {
-        width: 65%;
-        margin: 20px auto;
+    .top-banner__inner{
+        width: 80%;
+        margin-right: 50px;
+        margin-top: 10px;
     }
 }
 
@@ -160,13 +161,12 @@
     .top-banner__inner {
         flex-direction: column;
     }
-}
 
-@media (max-width: 1520px) {
-    .top-banner__inner{
-        margin: 150px auto;
+    .slogan-intro {
+        bottom: -150px !important;
     }
 }
+
 
 @media (max-width: 1250px) {
     

@@ -70,7 +70,7 @@
     .section-contact{
         width: 5%;
     }
-    .breadcrumbs{
+    .breadcrumbs > ul{
         display: none;
     }
     .nav-bottom{
