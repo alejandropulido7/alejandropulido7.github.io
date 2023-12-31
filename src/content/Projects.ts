@@ -77,7 +77,7 @@ export const PROJECTS = [
             },
             {
                 icon: iconEntry,
-                link: 'https://master--peaceful-klepon-baede3.netlify.app/'
+                link: 'https://alejandropulido7.github.io/portfolio-v1/'
             }
         ]
     },
