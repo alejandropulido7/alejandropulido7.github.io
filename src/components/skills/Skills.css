@@ -64,5 +64,8 @@
     border-radius: 2px;
 }
 
+.skill-bar{
+    transition: '1.5s ease-out';
+}
 
 /* Fin habilidades */

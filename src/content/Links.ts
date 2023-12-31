@@ -15,11 +15,6 @@ export const links = [
         show: true
     },
     {
-        name: "Resumen",
-        link: "summary",
-        show: true
-    },
-    {
         name: "Archivo de proyectos",
         link: "archive",
         show: false

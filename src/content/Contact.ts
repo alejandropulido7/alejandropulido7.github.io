@@ -10,5 +10,6 @@ export const contact = {
             icon: linkedinIcon,
             link: 'https://www.linkedin.com/in/alejandropulido7/'
         },
-        email: "hapulido22@gmail.com"
+        email: "hapulido22@gmail.com",
+        summaryLink: "https://drive.google.com/file/d/1EJYMEcdYyhQnU6_v4p4nnQPLiaMD4ev9/view?usp=sharing"
 }

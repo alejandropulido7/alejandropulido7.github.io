@@ -84,3 +84,105 @@ body {
 
 
 /* Universal style end */
+
+/* ANIMATIONS */
+@keyframes leftToRight {
+  from {
+    transform: translateX(-100%);
+    opacity: 0;
+  }
+
+  to {
+      transform: translateX(0);
+      opacity: 1;
+  }
+}
+
+@keyframes rightToLeft {
+  from {
+    transform: translateX(40%);
+    opacity: 0;
+  }
+
+  to {
+      transform: translateX(0);
+      opacity: 1;
+  }
+}
+
+@keyframes upToDown {
+  from {
+    transform: translateY(-100%);
+    opacity: 0;
+    
+  }
+
+  to {
+      transform: translateY(0);
+      opacity: 1;
+  }
+}
+
+@keyframes downToUp {
+  from {
+    transform: translateY(100%);
+    opacity: 0;
+  }
+
+  to {
+      transform: translateY(0);
+      opacity: 1;
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+      opacity: 1;
+  }
+}
+
+@keyframes leftOut{
+  from {
+    transform: translateX(0);
+    opacity: 1;
+  }
+
+  to {
+    transform: translateX(-100%);
+    opacity: 0;
+  }
+}
+
+.animate-leftToRight{
+  animation-name: leftToRight;
+  animation-duration: 1s;
+}
+
+.animate-rightToLeft{
+  animation-name: rightToLeft;
+  animation-duration: 1s;
+}
+
+.animate-upToDown{
+  animation-name: upToDown;
+  animation-duration: 1s;
+}
+
+.animate-downToUp{
+  animation-name: downToUp;
+  animation-duration: 1s;
+}
+
+.animate-fadeIn{
+  animation-name: fadeIn;
+  animation-duration: 1.5s;
+}
+
+.animate-leftOut{
+  animation-name: leftOut;
+  animation-duration: 1s;
+}
