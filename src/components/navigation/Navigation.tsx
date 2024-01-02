@@ -15,7 +15,7 @@ export default function Navigation({dimensions}) {
     const [pathState, setPathState] = useState('');
     const [showBreadcrumb, setShowBreadcrumb] = useState(false);
 
-    const path = useLocation().pathname.split('/')[2];
+    const path = useLocation().pathname.split('/')[1];
 
     useEffect(()=>{
         setShowBreadcrumb(false)

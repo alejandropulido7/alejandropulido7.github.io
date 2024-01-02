@@ -11,12 +11,12 @@ import ProjectsArchive from './components/projects/ProjectsArchive.tsx';
 
 const router = createBrowserRouter([
   {
-    path: "/portfolio-v2/",
+    path: "/",
     element: <App />,
     errorElement: <App />,
     children: [
       {
-        path: "/portfolio-v2/",
+        path: "/",
         element: <Intro />,
       },
       {

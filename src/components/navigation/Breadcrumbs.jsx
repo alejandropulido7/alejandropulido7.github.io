@@ -24,7 +24,7 @@ const Breadcrumbs = ({pathName, dimensions}) => {
                 <li className="w-80 h-px bg-white self-center"></li>
             </ul>
             <div className="btn-home fixed right-0 my-5" style={{right: '7%', top: dimensions.height-100}}>
-                <Link to={'/portfolio-v2/'}>
+                <Link to={'/'}>
                     <img src={iconHome} alt="icon home"/>
                 </Link>
             </div>

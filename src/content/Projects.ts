@@ -11,7 +11,7 @@ import iconEntry from '../assets/images/entry-svgrepo-com.svg'
 export const PROJECTS = [
     {
         title: 'Web app de Contratos',
-        description: 'Esta web app fue pensada para tramitar requerimientos, crear un contrato en una plantilla PDF y firmarlos directamente desde la app, también tiene la función de enviar por correo electronico. Tiene frontend, backend y proceso de autenticacion',
+        description: 'Esta web app fue pensada para tramitar requerimientos, crear un contrato en una plantilla PDF y firmar directamente desde la app, también tiene la función de enviar por correo electronico. Tiene frontend, backend y proceso de autenticacion. Enviame un correo para entrar a probarla',
         image: webAppAgreements,
         languages: ['angular', 'nodejs/express', 'mongoDB', 'jwt'],
         links: [
@@ -22,6 +22,10 @@ export const PROJECTS = [
             {
                 icon: iconGit,
                 link: 'https://github.com/alejandropulido7/pdfcreator-front'
+            },
+            {
+                icon: iconEntry,
+                link: 'https://pdfcreator-codingproactive.netlify.app'
             }
         ]
     },
